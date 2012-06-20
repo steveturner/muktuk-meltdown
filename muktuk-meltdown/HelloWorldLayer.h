@@ -1,7 +1,10 @@
 
 
 #import "kobold2d.h"
+#import "RippleSprite.h"
+#import "ObstacleCourseScene.h"
 
+#define SCRATCHABLE_IMAGE   10
 typedef enum 
 {
 	kAccelerometerValuesRaw,
@@ -17,7 +20,11 @@ typedef enum
 {
 	CCSprite* ship;
 	CCSprite* background;
+	CCSprite* revealSprite;
+	CCRenderTexture* scratchLayer;
+	CCSprite *rippleImage;
 	CCParticleSystem* particleFX;
+	ObstacleCourseScene* boids;
 	InputTypes inputType;
 }
 

@@ -10,11 +10,26 @@
 		AA55A9BA158CF7290088CA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55A9AE158CF7290088CA94 /* AppDelegate.m */; };
 		AA55A9BB158CF7290088CA94 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55A9B0158CF7290088CA94 /* HelloWorldLayer.m */; };
 		AA55A9BC158CF7290088CA94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55A9B1158CF7290088CA94 /* main.m */; };
-		AA55A9BD158CF7290088CA94 /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9B5158CF7290088CA94 /* config.lua */; };
-		AA55A9BE158CF7290088CA94 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9B6158CF7290088CA94 /* fire.png */; };
-		AA55A9BF158CF7290088CA94 /* hole_6.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9B7158CF7290088CA94 /* hole_6.png */; };
-		AA55A9C0158CF7290088CA94 /* ice_background.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9B8158CF7290088CA94 /* ice_background.png */; };
-		AA55A9C1158CF7290088CA94 /* Pow.caf in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9B9158CF7290088CA94 /* Pow.caf */; };
+		AA55A9CA158CF88F0088CA94 /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9C4158CF88F0088CA94 /* config.lua */; };
+		AA55A9CB158CF88F0088CA94 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9C6158CF88F0088CA94 /* fire.png */; };
+		AA55A9CC158CF88F0088CA94 /* hole_6.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9C7158CF88F0088CA94 /* hole_6.png */; };
+		AA55A9CD158CF88F0088CA94 /* ice_background.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9C8158CF88F0088CA94 /* ice_background.png */; };
+		AA55A9CE158CF88F0088CA94 /* Pow.caf in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9C9158CF88F0088CA94 /* Pow.caf */; };
+		AA55A9D3158CF9380088CA94 /* hole-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9CF158CF9380088CA94 /* hole-hd.png */; };
+		AA55A9D4158CF9380088CA94 /* hole-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9D0158CF9380088CA94 /* hole-ipad.png */; };
+		AA55A9D5158CF9380088CA94 /* hole-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9D1158CF9380088CA94 /* hole-ipadhd.png */; };
+		AA55A9D6158CF9380088CA94 /* hole.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9D2158CF9380088CA94 /* hole.png */; };
+		AA55A9D8158CFDE90088CA94 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = AA55A9D7158CFDE90088CA94 /* water.png */; };
+		AAAB9D2C158D088600551B55 /* RippleSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9D2B158D088600551B55 /* RippleSprite.m */; };
+		AAAB9D3E158D13E800551B55 /* AvoidTouchScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9D35158D13E800551B55 /* AvoidTouchScene.m */; };
+		AAAB9D3F158D13E800551B55 /* Boid.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9D37158D13E800551B55 /* Boid.m */; };
+		AAAB9D40158D13E800551B55 /* FlockScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9D39158D13E800551B55 /* FlockScene.m */; };
+		AAAB9D41158D13E800551B55 /* ObstacleCourseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9D3B158D13E800551B55 /* ObstacleCourseScene.m */; };
+		AAAB9D42158D13E800551B55 /* SeakScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9D3D158D13E800551B55 /* SeakScene.m */; };
+		AAAB9D44158D160B00551B55 /* boid.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAB9D43158D160B00551B55 /* boid.png */; };
+		AAAB9D46158D18F300551B55 /* fish-red.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAB9D45158D18F300551B55 /* fish-red.png */; };
+		AAAB9D48158D229700551B55 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAB9D47158D229700551B55 /* Particle.png */; };
+		AAAB9D5615903AAC00551B55 /* OceanSequence.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAB9D5515903AAC00551B55 /* OceanSequence.png */; };
 		DC485B1113AA0E5600F2BC70 /* libchipmunk-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */; };
 		DC485B1713AA0EBB00F2BC70 /* libbox2d-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */; };
 		DC485B4613AA18A600F2BC70 /* libcocosdenshion-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B4513AA18A600F2BC70 /* libcocosdenshion-mac.a */; };
@@ -55,11 +70,32 @@
 		AA55A9B1158CF7290088CA94 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA55A9B2158CF7290088CA94 /* Prefix-iOS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-iOS.pch"; sourceTree = "<group>"; };
 		AA55A9B3158CF7290088CA94 /* Prefix-Mac.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-Mac.pch"; sourceTree = "<group>"; };
-		AA55A9B5158CF7290088CA94 /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
-		AA55A9B6158CF7290088CA94 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
-		AA55A9B7158CF7290088CA94 /* hole_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole_6.png; sourceTree = "<group>"; };
-		AA55A9B8158CF7290088CA94 /* ice_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice_background.png; sourceTree = "<group>"; };
-		AA55A9B9158CF7290088CA94 /* Pow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pow.caf; sourceTree = "<group>"; };
+		AA55A9C4158CF88F0088CA94 /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
+		AA55A9C6158CF88F0088CA94 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		AA55A9C7158CF88F0088CA94 /* hole_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole_6.png; sourceTree = "<group>"; };
+		AA55A9C8158CF88F0088CA94 /* ice_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice_background.png; sourceTree = "<group>"; };
+		AA55A9C9158CF88F0088CA94 /* Pow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pow.caf; sourceTree = "<group>"; };
+		AA55A9CF158CF9380088CA94 /* hole-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hole-hd.png"; sourceTree = "<group>"; };
+		AA55A9D0158CF9380088CA94 /* hole-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hole-ipad.png"; sourceTree = "<group>"; };
+		AA55A9D1158CF9380088CA94 /* hole-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hole-ipadhd.png"; sourceTree = "<group>"; };
+		AA55A9D2158CF9380088CA94 /* hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole.png; sourceTree = "<group>"; };
+		AA55A9D7158CFDE90088CA94 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		AAAB9D2A158D088600551B55 /* RippleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleSprite.h; sourceTree = "<group>"; };
+		AAAB9D2B158D088600551B55 /* RippleSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleSprite.m; sourceTree = "<group>"; };
+		AAAB9D34158D13E800551B55 /* AvoidTouchScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvoidTouchScene.h; sourceTree = "<group>"; };
+		AAAB9D35158D13E800551B55 /* AvoidTouchScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvoidTouchScene.m; sourceTree = "<group>"; };
+		AAAB9D36158D13E800551B55 /* Boid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boid.h; sourceTree = "<group>"; };
+		AAAB9D37158D13E800551B55 /* Boid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boid.m; sourceTree = "<group>"; };
+		AAAB9D38158D13E800551B55 /* FlockScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlockScene.h; sourceTree = "<group>"; };
+		AAAB9D39158D13E800551B55 /* FlockScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlockScene.m; sourceTree = "<group>"; };
+		AAAB9D3A158D13E800551B55 /* ObstacleCourseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObstacleCourseScene.h; sourceTree = "<group>"; };
+		AAAB9D3B158D13E800551B55 /* ObstacleCourseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObstacleCourseScene.m; sourceTree = "<group>"; };
+		AAAB9D3C158D13E800551B55 /* SeakScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeakScene.h; sourceTree = "<group>"; };
+		AAAB9D3D158D13E800551B55 /* SeakScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeakScene.m; sourceTree = "<group>"; };
+		AAAB9D43158D160B00551B55 /* boid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boid.png; sourceTree = "<group>"; };
+		AAAB9D45158D18F300551B55 /* fish-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-red.png"; sourceTree = "<group>"; };
+		AAAB9D47158D229700551B55 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		AAAB9D5515903AAC00551B55 /* OceanSequence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OceanSequence.png; sourceTree = "<group>"; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
 		DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libchipmunk-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC485B1613AA0EBB00F2BC70 /* libbox2d-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libbox2d-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +176,7 @@
 		AA55A9A8158CF7200088CA94 /* Auger */ = {
 			isa = PBXGroup;
 			children = (
+				AAAB9D32158D13E800551B55 /* AI */,
 				AA55A9A9158CF7200088CA94 /* Video */,
 			);
 			path = Auger;
@@ -157,6 +194,8 @@
 		AA55A9AA158CF7200088CA94 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
+				AAAB9D2A158D088600551B55 /* RippleSprite.h */,
+				AAAB9D2B158D088600551B55 /* RippleSprite.m */,
 			);
 			path = Sprites;
 			sourceTree = "<group>";
@@ -171,6 +210,7 @@
 		AA55A9AC158CF7290088CA94 /* muktuk-meltdown */ = {
 			isa = PBXGroup;
 			children = (
+				AA55A9C2158CF88F0088CA94 /* Resources */,
 				AA55A9AD158CF7290088CA94 /* AppDelegate.h */,
 				AA55A9AE158CF7290088CA94 /* AppDelegate.m */,
 				AA55A9AF158CF7290088CA94 /* HelloWorldLayer.h */,
@@ -178,21 +218,70 @@
 				AA55A9B1158CF7290088CA94 /* main.m */,
 				AA55A9B2158CF7290088CA94 /* Prefix-iOS.pch */,
 				AA55A9B3158CF7290088CA94 /* Prefix-Mac.pch */,
-				AA55A9B4158CF7290088CA94 /* Resources */,
 			);
 			path = "muktuk-meltdown";
 			sourceTree = "<group>";
 		};
-		AA55A9B4158CF7290088CA94 /* Resources */ = {
+		AA55A9C2158CF88F0088CA94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AA55A9B5158CF7290088CA94 /* config.lua */,
-				AA55A9B6158CF7290088CA94 /* fire.png */,
-				AA55A9B7158CF7290088CA94 /* hole_6.png */,
-				AA55A9B8158CF7290088CA94 /* ice_background.png */,
-				AA55A9B9158CF7290088CA94 /* Pow.caf */,
+				AA55A9C3158CF88F0088CA94 /* Audio */,
+				AA55A9C4158CF88F0088CA94 /* config.lua */,
+				AA55A9C5158CF88F0088CA94 /* Images */,
+				AA55A9C9158CF88F0088CA94 /* Pow.caf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA55A9C3158CF88F0088CA94 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		AA55A9C5158CF88F0088CA94 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB9D5515903AAC00551B55 /* OceanSequence.png */,
+				AAAB9D47158D229700551B55 /* Particle.png */,
+				AAAB9D45158D18F300551B55 /* fish-red.png */,
+				AAAB9D43158D160B00551B55 /* boid.png */,
+				AA55A9D7158CFDE90088CA94 /* water.png */,
+				AA55A9CF158CF9380088CA94 /* hole-hd.png */,
+				AA55A9D0158CF9380088CA94 /* hole-ipad.png */,
+				AA55A9D1158CF9380088CA94 /* hole-ipadhd.png */,
+				AA55A9D2158CF9380088CA94 /* hole.png */,
+				AA55A9C6158CF88F0088CA94 /* fire.png */,
+				AA55A9C7158CF88F0088CA94 /* hole_6.png */,
+				AA55A9C8158CF88F0088CA94 /* ice_background.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AAAB9D32158D13E800551B55 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB9D33158D13E800551B55 /* Boids */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		AAAB9D33158D13E800551B55 /* Boids */ = {
+			isa = PBXGroup;
+			children = (
+				AAAB9D34158D13E800551B55 /* AvoidTouchScene.h */,
+				AAAB9D35158D13E800551B55 /* AvoidTouchScene.m */,
+				AAAB9D36158D13E800551B55 /* Boid.h */,
+				AAAB9D37158D13E800551B55 /* Boid.m */,
+				AAAB9D38158D13E800551B55 /* FlockScene.h */,
+				AAAB9D39158D13E800551B55 /* FlockScene.m */,
+				AAAB9D3A158D13E800551B55 /* ObstacleCourseScene.h */,
+				AAAB9D3B158D13E800551B55 /* ObstacleCourseScene.m */,
+				AAAB9D3C158D13E800551B55 /* SeakScene.h */,
+				AAAB9D3D158D13E800551B55 /* SeakScene.m */,
+			);
+			path = Boids;
 			sourceTree = "<group>";
 		};
 		DCC1A0D613A94EC0005BD75D = {
@@ -368,11 +457,20 @@
 				DCC1A10613A94ED5005BD75D /* Icon.png in Resources */,
 				DCC1A10813A94ED5005BD75D /* Icon@2x.png in Resources */,
 				DCC1A10B13A94ED5005BD75D /* iTunesArtwork in Resources */,
-				AA55A9BD158CF7290088CA94 /* config.lua in Resources */,
-				AA55A9BE158CF7290088CA94 /* fire.png in Resources */,
-				AA55A9BF158CF7290088CA94 /* hole_6.png in Resources */,
-				AA55A9C0158CF7290088CA94 /* ice_background.png in Resources */,
-				AA55A9C1158CF7290088CA94 /* Pow.caf in Resources */,
+				AA55A9CA158CF88F0088CA94 /* config.lua in Resources */,
+				AA55A9CB158CF88F0088CA94 /* fire.png in Resources */,
+				AA55A9CC158CF88F0088CA94 /* hole_6.png in Resources */,
+				AA55A9CD158CF88F0088CA94 /* ice_background.png in Resources */,
+				AA55A9CE158CF88F0088CA94 /* Pow.caf in Resources */,
+				AA55A9D3158CF9380088CA94 /* hole-hd.png in Resources */,
+				AA55A9D4158CF9380088CA94 /* hole-ipad.png in Resources */,
+				AA55A9D5158CF9380088CA94 /* hole-ipadhd.png in Resources */,
+				AA55A9D6158CF9380088CA94 /* hole.png in Resources */,
+				AA55A9D8158CFDE90088CA94 /* water.png in Resources */,
+				AAAB9D44158D160B00551B55 /* boid.png in Resources */,
+				AAAB9D46158D18F300551B55 /* fish-red.png in Resources */,
+				AAAB9D48158D229700551B55 /* Particle.png in Resources */,
+				AAAB9D5615903AAC00551B55 /* OceanSequence.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +495,12 @@
 				AA55A9BA158CF7290088CA94 /* AppDelegate.m in Sources */,
 				AA55A9BB158CF7290088CA94 /* HelloWorldLayer.m in Sources */,
 				AA55A9BC158CF7290088CA94 /* main.m in Sources */,
+				AAAB9D2C158D088600551B55 /* RippleSprite.m in Sources */,
+				AAAB9D3E158D13E800551B55 /* AvoidTouchScene.m in Sources */,
+				AAAB9D3F158D13E800551B55 /* Boid.m in Sources */,
+				AAAB9D40158D13E800551B55 /* FlockScene.m in Sources */,
+				AAAB9D41158D13E800551B55 /* ObstacleCourseScene.m in Sources */,
+				AAAB9D42158D13E800551B55 /* SeakScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +549,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
+				GCC_PREFIX_HEADER = "muktuk-meltdown/Prefix-iOS.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
@@ -456,6 +562,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
+				GCC_PREFIX_HEADER = "muktuk-meltdown/Prefix-iOS.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../__Kobold2D__/libs/GoogleAdMobAdsSDK\"",
